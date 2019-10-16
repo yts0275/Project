@@ -6,7 +6,7 @@ int main(){
 
 	PyRun_SimpleString("import sys");
 	PyRun_SimpleString("sys.path");
-	PyRun_SimpleString("sys.path.append('/root/mine')");
+	PyRun_SimpleString("sys.path.append('./lib')");
 	PyRun_SimpleString("import histogram");
 	PyRun_SimpleString("import equalization");
 	PyRun_SimpleString("histogram.histogram()");
